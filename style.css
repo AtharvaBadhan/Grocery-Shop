@@ -160,8 +160,11 @@ a:-webkit-any-link {
 
 .carousel-item {
     display: flex;
+    justify-content: space-between;
 }
-
+.carousel-content{
+    width: 100%;
+}
 .carousel-content h1 {
     font-size: 34px;
     color: #34a853;
@@ -225,7 +228,7 @@ a:-webkit-any-link {
     justify-content: center;
     border-radius: 10px;
     height: 210px;
-    width: 190px;
+    width: 100%;
 }
 
 .per-product p {
@@ -235,11 +238,13 @@ a:-webkit-any-link {
 .per-product {
     text-align: center;
     cursor: pointer;
+    width: 100%;
 }
 
 .product {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
 .fvj-banner {
@@ -247,6 +252,7 @@ a:-webkit-any-link {
     padding: 15px 30px;
     display: flex;
     gap: 25px;
+    justify-content: space-between;
 }
 
 .fruits {
@@ -255,6 +261,7 @@ a:-webkit-any-link {
     border: 1px solid black;
     padding: 40px;
     border-radius: 5px;
+    width: 100%;
 }
 
 .fruits h1 {
@@ -265,7 +272,7 @@ a:-webkit-any-link {
 }
 
 .fvj-images {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin-top: 28px;
 }
@@ -306,12 +313,18 @@ a:-webkit-any-link {
 .product-list {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
 .products {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 14.5px 6.5px #dddddd;
+-moz-box-shadow: 0 0 14.5px 6.5px #dddddd;
+box-shadow: 0 0 14.5px 6.5px #dddddd;
 }
 .products p{
     font-weight: 700;
@@ -405,12 +418,18 @@ a:-webkit-any-link {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    -webkit-box-shadow: 0 0 14.5px 6.5px #dddddd;
+    -moz-box-shadow: 0 0 14.5px 6.5px #dddddd;
+    box-shadow: 0 0 14.5px 6.5px #dddddd; 
 }
 
 .top-selling-product-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
 }
 
 .top-product img{
@@ -450,9 +469,11 @@ a:-webkit-any-link {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    gap: 25px;
 }
 .banner-1{
     position: relative;
+    width: 100%;
 }
 
 .banner-1-text{
@@ -468,10 +489,36 @@ a:-webkit-any-link {
 }
 
 .banner-1 img{
-    width: 600px;
+    width: 100%;
     border-radius: 10px;
 }
-.banner-2 {
+.banner-2-main {
     margin: 15px 30px;
     padding: 15px 30px;
+    position: relative;
+}
+
+.banner-2 img{
+    width: 100%;
+}
+
+.banner-content{
+
+    position: absolute;
+    top: 0;
+    margin: 50px 0 0 0px;
+    left: 326px;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+.banner-content h1{
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+
+.banner-content p{ 
+    font-size: 18px;
+    width: 71%;
 }
