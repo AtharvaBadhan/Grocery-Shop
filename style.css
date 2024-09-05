@@ -78,6 +78,7 @@ a:-webkit-any-link {
     outline: none;
     flex: 1;
     font-size: 12px;
+    border-radius:5px 0 0 5px;
 }
 
 .category-select {
@@ -136,7 +137,7 @@ a:-webkit-any-link {
 
 .nav-item {
     display: flex;
-    gap: 20px;
+    gap: 28px;
     color: #fff;
 }
 
@@ -314,6 +315,7 @@ a:-webkit-any-link {
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    margin-bottom: 25px;
 }
 
 .products {
@@ -332,6 +334,7 @@ box-shadow: 0 0 14.5px 6.5px #dddddd;
 
 .products img{
     margin-bottom: 20px;
+    width: 100%;
 }
 .rate {
     display: flex;
@@ -521,4 +524,121 @@ box-shadow: 0 0 14.5px 6.5px #dddddd;
 .banner-content p{ 
     font-size: 18px;
     width: 71%;
+}
+
+.footer-banner{
+    margin: 15px 30px;
+    padding: 15px 30px;
+    position: relative;
+}
+
+.footer-banner-content{
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 95px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.footer-banner-img img {
+    width: 100%;
+}
+
+.popular-products{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        -webkit-box-shadow: 0 0 14.5px 6.5px #dddddd;
+        -moz-box-shadow: 0 0 14.5px 6.5px #dddddd;
+        box-shadow: 0 0 14.5px 6.5px #dddddd; 
+}
+.popular-product-list {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.news-letter {
+    position: relative;
+    justify-content: center;
+}
+
+.news-letter img{
+    width: 100%;
+}
+
+.news-letter-content{
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    color: #fff;
+    left: 48%;
+}
+
+.news-letter-content span{
+    color: #FFBB38;
+}
+.coupon-btn{
+    background-color: #ffbb38;
+    height: 40px;
+    width: 140px;
+    border-radius:0 5px 5px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    color: #fff;
+    background-color: #1d1d1d;
+    position: absolute;
+    width: 100%;
+    top: 325px;
+    z-index: -1;
+}
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.section-1 img{
+    margin-bottom: 25px;
+}
+
+.section-1 p{
+    cursor: pointer;
+    color: #c8c8c8;
+}
+
+.section-1 h3{
+    cursor: pointer;
+}
+.credits {
+    display: flex;
+    margin: 50px;
+    border-top: 1px solid #484848;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.credit-content span{
+    color: #34A853;
+}
+
+.credit-content img{
+    height: 20px;
+    width: auto;
+}
+
+.credit-content{
+  
+        display: flex;
+        width: 36%;
+        align-items: center;
+        justify-content: space-between;
+
 }
