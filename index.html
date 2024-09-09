@@ -13,20 +13,31 @@
 <body>
     <!-- TopBar -->
     <div class="topbar">
-        <div class="top-text">
-            <p>Account</p>
-            <p>Track Order </p>
-            <p>Support</p>
-        </div>
+        <ul class="top-text">
+            <li>
+                <a>Account</a>
+            </li>
+            <li>
+                <a>Track Order </a>
+            </li>
+            <li>
+                <a>Support</a>
+            </li>
+        </ul>
         <div class="top-contact">
-            <div class="calling">
-                <img src="./img/Call.svg" alt="calling-icon">
-                <a herf="+ 00645 4568"> + 00645 4568 </a>
-            </div>
-            <div class="calling">
-                <img src="./img/Mail.svg" alt="mailing-icon">
-                <a href="mailto:Youremail@gmail.com"> Youremail@gmail.com </a>
-            </div>
+            <ul class="calling">
+                <li>
+                    <img src="./img/Call.svg" alt="calling-icon">
+
+                    <a herf="+ 00645 4568"> + 00645 4568 </a>
+                </li>
+            </ul>
+            <ul class="calling">
+                <li>
+                    <img src="./img/Mail.svg" alt="mailing-icon">
+                    <a href="mailto:Youremail@gmail.com"> Youremail@gmail.com </a>
+                </li>
+            </ul>
         </div>
     </div>
     <!-- TopBar End -->
@@ -39,7 +50,7 @@
                     <input type="search" placeholder="Search Product" name="query">
                     <div class="category-select">
                         <select id="all-categories" name="All Categories">
-                            <option value="technology">Technology</option>
+                            <option value="technology">All Categories</option>
                             <option value="business">Business</option>
                             <option value="entertainment">Entertainment</option>
                             <option value="sports">Sports</option>
@@ -51,7 +62,7 @@
                 </form>
             </div>
             <div class="top-logos">
-                <img src="./img/Repeat Order.svg" alt="repeat-order">
+                <img src="./img/icons8-repeat-50.svg" alt="Repeat">
                 <img src="./img/Liked Products.svg" alt="Liked Products">
                 <img src="./img/Shopping Bag.svg" alt="Shopping Bag">
                 <img src="./img/Account.svg" alt="Account">
@@ -64,7 +75,7 @@
         <div class="navbar-content">
             <div class="category-select">
                 <select id="all-categories" name="All Categories">
-                    <option value="technology">Technology</option>
+                    <option value="technology">All Categories</option>
                     <option value="business">Business</option>
                     <option value="entertainment">Entertainment</option>
                     <option value="sports">Sports</option>
@@ -72,17 +83,31 @@
                     <option value="science">Science</option>
                 </select>
             </div>
-            <div class="nav-item">
-                <p>Home</p>
-                <p>Shop+</p>
-                <p>Pages+</p>
-                <p>About</p>
-                <p>Blog</p>
-                <p>User Dashboard</p>
-                <p>Contact</p>
-            </div>
+            <ul class="nav-item">
+                <li>
+                    <a>Home</a>
+                </li>
+                <li>
+                    <a>Shop+</a>
+                </li>
+                <li>
+                    <a>Pages+</a>
+                </li>
+                <li>
+                    <a>About</a>
+                </li>
+                <li>
+                    <a>Blog</a>
+                </li>
+                <li>
+                    <a>User Dashboard</a>
+                </li>
+                <li>
+                    <a>Contact</a>
+                </li>
+            </ul>
 
-            <button class="btn" type="button">Shop Now</button>
+            <button class="btn" type="button">Shop Now <span> > </span> </button>
 
         </div>
     </div>
@@ -95,7 +120,7 @@
                     <div class="carousel-content">
                         <h1>FRESH GROCERY</h1>
                         <h2>There's you can Buy your all of Grocery Products.</h2>
-                        <button class="btn" type="button">Shop Now</button>
+                        <button class="btn" type="button">Shop Now <span> > </span> </button>
                     </div>
                     <img src="./img/hero img.png" class="img" alt="hero image 1">
                 </div>
@@ -148,45 +173,75 @@
     <!-- Market Category -->
     <div class="market-category">
         <div class="market">
-            <h1> Market Category </h1>
-            <p>View All</p>
+            <h2> Market Category </h2>
+                    <a href="">View All</a>
+
         </div>
         <div class="product">
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Fruits </p>
+                <ul>
+                    <li>
+                        <a> Fruits </a>
+                    </li>
+                </ul>
+
             </div>
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Vegetable </p>
+                <ul>
+                    <li>
+                        <a> Vegetable </a>
+                    </li>
+                </ul>
             </div>
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Juice </p>
+                <ul>
+                    <li>
+                        <a> Juice </a>
+                    </li>
+                </ul>
+
             </div>
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Meat </p>
+                <ul>
+                    <li>
+                        <a> Meat </a>
+                    </li>
+                </ul>
+
             </div>
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Cold Drink </p>
+                <ul>
+                    <li>
+                        <a> Cold Drink </a>
+                    </li>
+                </ul>
+
             </div>
             <div class="per-product">
                 <div class="market-rect">
                     <img src="./img/market-img.png" alt="Market Product" />
                 </div>
-                <p> Bread </p>
+                <ul>
+                    <li>
+                        <a> Bread </a>
+                    </li>
+                </ul>
+
             </div>
         </div>
     </div>
@@ -195,21 +250,21 @@
     <div class="fvj-banner">
         <div class="fruits">
             <p>Fruits</p>
-            <h1>Healthy & Good Fruits</h1>
-            <button class="fruits-btn" type="button">Shop Now</button>
+            <h2>Healthy & Good Fruits</h2>
+            <button class="fruits-btn" type="button">Shop Now <span> > </span> </button>
             <img class="fvj-images" src="/img/Fruits.png" alt="Fruit Basket">
         </div>
         <div class="fruits">
             <img class="fvj-images" src="/img/Vegetable.png" alt="Fruit Basket">
             <p>Vegetable</p>
-            <h1>Fresh & Goods Vegetable</h1>
-            <button class="vegetable-btn" type="button">Shop Now</button>
+            <h2>Fresh & Goods Vegetable</h2>
+            <button class="vegetable-btn" type="button">Shop Now <span> > </span> </button>
 
         </div>
         <div class="fruits">
             <p>Juice</p>
-            <h1>Best Fruits Juices</h1>
-            <button class="juice-btn" type="button">Shop Now</button>
+            <h2>Best Fruits Juices</h2>
+            <button class="juice-btn" type="button">Shop Now <span> > </span></button>
             <img class="fvj-images" src="/img/Fruits.png" alt="Fruit Basket">
         </div>
     </div>
@@ -217,13 +272,14 @@
     <!-- Fresh Vegetables -->
     <div class="market-category">
         <div class="market">
-            <h1> Fresh Vegetables </h1>
-            <p>View All</p>
+            <h2> Fresh Vegetables </h2>
+                    <a href="">View All</a>
+
         </div>
         <div class="product-list">
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -232,8 +288,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -242,8 +298,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -252,8 +308,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -265,55 +321,59 @@
     </div>
     <!-- Fresh Vegetables End -->
     <!-- Adversitment -->
+     <div class="ad-outer">
     <div class="adversitment">
         <div class="ad-content">
             <div class="counter">
                 <div class="elipse-text">
                     <div class="elipse">
-                        <h1>190</h1>
+                        <h1 style="color: #FF0000">190</h2>
                     </div>
                     <h4>Days</h4>
                 </div>
                 <div class="elipse-text">
                     <div class="elipse">
-                        <h1>20</h1>
+                        <h1 style="color: #87CEEB"> 20</h2>
 
                     </div>
                     <h4>Hours</h4>
                 </div>
                 <div class="elipse-text">
                     <div class="elipse">
-                        <h1>53</h1>
+                        <h1 style="color: #008000">53</h2>
                     </div>
                     <h4>Minutes</h4>
                 </div>
                 <div class="elipse-text">
                     <div class="elipse">
-                        <h1>23</h1>
+                        <h1 style="color: #FF0000">23</h2>
                     </div>
                     <h4>Seconds</h4>
                 </div>
             </div>
             <div class="ad-text">
-                <h1>WOO! Flash Sale</h1>
+                <h2>WOO! Flash Sale</h2>
                 <p>You get into the 2k+ best Products in br Flash offer with as in shaped sofa for sale.</p>
-                <button class="fruits-btn" type="button">Shop Now</button>
+                <button class="fruits-btn" type="button">Shop Now <span> > </span></button>
             </div>
+            <img class="back-img" src="/img/Flash-Sale-Background-Image.png" alt="Flash Background Image">
         </div>
-        <img class="back-img" src="/img/Flash-Sale-Background-Image.png" alt="Flash Background Image">
+    </div>
     </div>
     <!-- Adversitment End -->
     <!-- Top Selling Product -->
     <div class="market-category">
         <div class="market">
-            <h1> Top Selling Product </h1>
-            <p>View All</p>
+            <h2> Top Selling Product </h2>
+
+                    <a href="">View All</a>
+
         </div>
         <div class="top-selling-product-list">
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -325,7 +385,7 @@
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -337,7 +397,7 @@
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -351,7 +411,7 @@
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -363,7 +423,7 @@
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -375,7 +435,7 @@
             <div class="top-product">
                 <img src="/img/fresh-vegetables.png" alt="top product">
                 <div class="top-product-list">
-                    <img src="/img/Rating.svg" alt="Rating">
+                    <img src="/img/Rating.svg" alt="Rating" class="rating">
                     <h2>White EggPlant</h2>
                     <div class="rate">
                         <h4> $12.99 </h4>
@@ -393,16 +453,16 @@
             <img src="/img/Poster Image.png" alt="Poster 1">
             <div class="banner-1-text">
                 <p>Fresh Vegetables</p>
-                <h1> The 14 Most Nutrient-Dense Vegetables </h1>
-                <button class="btn" type="button">Shop Now</button>
+                <h2> The 14 Most Nutrient-Dense Vegetables </h2>
+                <button class="btn" type="button">Shop Now <span> > </span></button>
             </div>
         </div>
         <div class="banner-1">
             <img src="/img/Poster Image 2.png" alt="Poster 1">
             <div class="banner-1-text">
                 <p>Fresh Fruits</p>
-                <h1> Healthy & Goods <br>Fruits </h1>
-                <button class="btn" type="button">Shop Now</button>
+                <h2> Healthy & Goods <br>Fruits </h2>
+                <button class="btn" type="button">Shop Now <span> > </span></button>
             </div>
         </div>
     </div>
@@ -410,13 +470,15 @@
     <!-- Drinks -->
     <div class="market-category">
         <div class="market">
-            <h1> Drinks Juice </h1>
-            <p>View All</p>
+            <h2> Drinks Juice </h2>
+    
+                    <a href="">View All</a>
+        
         </div>
         <div class="product-list">
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating">
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -425,8 +487,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating">
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -435,8 +497,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -445,8 +507,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -462,10 +524,10 @@
         <div class="banner-2">
             <img src="/img/Background-Img-2.png" alt="Backgroung image 2" />
             <div class="banner-content">
-                <h1>Get the best deal for Grocery</h1>
+                <h2>Get the best deal for Grocery</h2>
                 <p>You get into the 2k+ best Products in Flash offer with as into the find to make in shaped sofa for
                     sale.</p>
-                <button class="fruits-btn" type="button">Shop Now</button>
+                <button class="fruits-btn" type="button">Shop Now <span> > </span></button>
             </div>
         </div>
 
@@ -474,13 +536,15 @@
     <!-- New Arrivles -->
     <div class="market-category">
         <div class="market">
-            <h1> New Arrivles </h1>
-            <p>View All</p>
+            <h2> New Arrivles </h2>
+            
+                    <a href="">View All</a>
+            
         </div>
         <div class="product-list">
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -489,8 +553,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -499,8 +563,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -509,50 +573,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                <button type="button" class="add-to-cart"> + Add To Cart </button>
-            </div>
-        </div>
-        <div class="product-list">
-            <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                <button type="button" class="add-to-cart"> + Add To Cart </button>
-            </div>
-            <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                <button type="button" class="add-to-cart"> + Add To Cart </button>
-            </div>
-            <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                <button type="button" class="add-to-cart"> + Add To Cart </button>
-            </div>
-            <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -563,8 +585,8 @@
         </div>
         <div class="product-list">
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -573,8 +595,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -583,8 +605,8 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -593,8 +615,50 @@
                 <button type="button" class="add-to-cart"> + Add To Cart </button>
             </div>
             <div class="products">
-                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" />
-                <img src="/img/Rating.svg" alt="Rating" />
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
+                <p> Fresh Red Tomatos </p>
+                <div class="rate">
+                    <h4> $12.99 </h4>
+                    <h3> $6.99 </h3>
+                </div>
+                <button type="button" class="add-to-cart"> + Add To Cart </button>
+            </div>
+        </div>
+        <div class="product-list">
+            <div class="products">
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
+                <p> Fresh Red Tomatos </p>
+                <div class="rate">
+                    <h4> $12.99 </h4>
+                    <h3> $6.99 </h3>
+                </div>
+                <button type="button" class="add-to-cart"> + Add To Cart </button>
+            </div>
+            <div class="products">
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
+                <p> Fresh Red Tomatos </p>
+                <div class="rate">
+                    <h4> $12.99 </h4>
+                    <h3> $6.99 </h3>
+                </div>
+                <button type="button" class="add-to-cart"> + Add To Cart </button>
+            </div>
+            <div class="products">
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
+                <p> Fresh Red Tomatos </p>
+                <div class="rate">
+                    <h4> $12.99 </h4>
+                    <h3> $6.99 </h3>
+                </div>
+                <button type="button" class="add-to-cart"> + Add To Cart </button>
+            </div>
+            <div class="products">
+                <img src="/img/fresh-vegetables.png" alt="Vegetable Image" class="vege-img" />
+                <img src="/img/Rating.svg" alt="Rating" class="rating" />
                 <p> Fresh Red Tomatos </p>
                 <div class="rate">
                     <h4> $12.99 </h4>
@@ -610,8 +674,8 @@
         <div class="footer-banner-img">
             <img src="/img/Morden Grocery Background Image.png" alt="Morden Grocery Background Image" />
             <div class="footer-banner-content">
-                <h1>Get the best deal for Modern Grocery</h1>
-                <button class="btn" type="button">Shop Now</button>
+                <h2>Get the best deal for Modern Grocery</h2>
+                <button class="btn" type="button">Shop Now <span> > </span></button>
             </div>
         </div>
 
@@ -620,145 +684,147 @@
     <!-- POPULAR SALES-->
     <div class="market-category">
         <div class="market">
-            <h1> Popular Sales </h1>
-            <p>View All</p>
+            <h2> Popular Sales </h2>
+            
+                    <a href="">View All</a>
+            
         </div>
         <div class="popular-product-list">
-            <div class="popular-products">
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div class="popular-products">
+            </a>
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div class="popular-products">
+            </a>
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
+            </a>
         </div>
         <div class="popular-product-list">
-            <div class="popular-products">
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div class="popular-products">
+            </a>
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div class="popular-products">
+            </a>
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-        </div>  
-        <div class="popular-product-list">
-            <div class="popular-products">
-                <img src="/img/product-img.png" alt="Vegetable Image" />
-                <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                </div>
-            </div>
-            <div class="popular-products">
-                <img src="/img/product-img.png" alt="Vegetable Image" />
-                <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                </div>
-            </div>
-            <div class="popular-products">
-                <img src="/img/product-img.png" alt="Vegetable Image" />
-                <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                </div>
-            </div>
+            </a>
         </div>
         <div class="popular-product-list">
+            <a class="popular-products">
+                <img src="/img/product-img.png" alt="Vegetable Image" />
+                <div class="inner-content">
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
+                </div>
+            </a>
+            <a class="popular-products">
+                <img src="/img/product-img.png" alt="Vegetable Image" />
+                <div class="inner-content">
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
+                </div>
+            </a>
+            <a class="popular-products">
+                <img src="/img/product-img.png" alt="Vegetable Image" />
+                <div class="inner-content">
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="popular-product-list">
+            <a class="popular-products">
+                <img src="/img/product-img.png" alt="Vegetable Image" />
+                <div class="inner-content">
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
+                </div>
+            </a>
             <div class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
             </div>
-            <div class="popular-products">
+            <a class="popular-products">
                 <img src="/img/product-img.png" alt="Vegetable Image" />
                 <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
+                    <p> Fresh Red Tomatos </p>
+                    <div class="rate">
+                        <h4> $12.99 </h4>
+                        <h3> $6.99 </h3>
+                    </div>
                 </div>
-                </div>
-            </div>
-            <div class="popular-products">
-                <img src="/img/product-img.png" alt="Vegetable Image" />
-                <div class="inner-content">
-                <p> Fresh Red Tomatos </p>
-                <div class="rate">
-                    <h4> $12.99 </h4>
-                    <h3> $6.99 </h3>
-                </div>
-                </div>
-            </div>
+            </a>
         </div>
 
     </div>
     <!-- POPULAR SALES END-->
-      <!-- News Letter-->
-       <div class="news-letter">
-        <img src="/img/News Letter Background.png" alt="News Letter Background" />
+    <!-- News Letter-->
+    <div class="news-letter">
+        <img src="/img/News Letter Background.png" alt="News Letter Background" class="news-letter-img"/>
         <div class="news-letter-content">
-            <h1>Get <span>20%</span> Off Discount Coupon</h1>
+            <h2>Get <span>20%</span> Off Discount Coupon</h2>
             <p>by Subscribe our Newsletter</p>
             <form action="#" method="get" class="search-bar">
                 <input type="search" placeholder="Email Address" name="query">
@@ -766,54 +832,100 @@
             </form>
         </div>
         <!-- News Letter End-->
-         <!-- Footer -->
+        <!-- Footer -->
         <div class="footer">
             <div class="inner-footer">
-                <div class="section-1">
+                <ul class="section-1">
                     <img src="/img/Logo Footer.png" alt="Logo">
-                    <p>Track Order</p>
-                    <p>Delivery & Returns</p>
-                    <p>Warranty</p>
-                </div>
-                <div class="section-1">
-                   <h3>About Us</h3>
-                    <p>Rave’s Story</p>
-                    <p>Work With Us</p>
-                    <p>Corporate News</p>
-                    <p>Investors</p>
-                </div>
-                <div class="section-1">
-                   <h3> Useful Links </h3>
-                    <p>Investors</p>
-                    <p>Privacy Policy</p>
-                    <p>Terms of Use</p>
-                    <p>Archived Products</p>
-                </div>
-                <div class="section-1">
-                    <h3>Contact Info</h3>
-                    <p>Track Order</p>
-                    <p>Delivery & Returns</p>
-                    <p>Warranty</p>
-                </div>
+                    <li>
+                        <a>Track Order</a>
+                    </li>
+                    <li>
+                        <a>Delivery & Returns</a>
+                    </li>
+                    <li>
+                        <a>Warranty</a>
+                    </li>
+                </ul>
+                <ul class="section-1">
+                    <li>
+                        <h3>About Us</h3>
+                    </li>
+                    <li>
+                        <a>Rave’s Story</a>
+                    </li>
+                    <li>
+                        <a>Work With Us</a>
+                    </li>
+                    <li>
+                        <a>Corporate News</a>
+                    </li>
+                    <li>
+                        <a>Investors</a>
+                    </li>
+                </ul>
+                <ul class="section-1">
+                    <li>
+                        <h3> Useful Links </h3>
+                    </li>
+                    <li>
+                        <a>Investors</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a>Terms of Use</a>
+                    </li>
+                    <li>
+                        <a>Archived Products</a>
+                    </li>
+                </ul>
+                <ul class="section-1">
+                    <li>
+                        <h3>Contact Info</h3>
+                    </li>
+                    <li>
+                        <img src="/img/Location.png" alt="Address" >
+                        <div class="section-1-inner">
+                        <p>Address:</p>
+                        <a>4517 Washington Ave. Manchester, Kentucky 39495</a>
+                    </div>
+                    </li>
+                    <li>
+                        <img src="/img/Call.png" alt="Call">
+                        <div class="section-1-inner">
+                        <p>Phone:</p>
+                        <a>+88 0171889547</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="/img/Email.png" alt="Phone">
+                        <div class="section-1-inner">
+                        <p>Email:</p>
+                        <a>Demo@gmail.com</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <!-- Footer End-->
             <!-- Credits -->
             <div class="credits">
                 <div class="credit-content">
-                <img src="/img/Instagram.svg" alt="Instagram">
-                <img src="/img/Facebook.svg" alt="Facebook">
-                <img src="/img/Youtube.svg" alt="Youtube">
-                <p> ©2024 <span>Quomodosoft</span> All rights reserved </p>
+                    <img src="/img/Instagram.svg" alt="Instagram">
+                    <img src="/img/Facebook.svg" alt="Facebook">
+                    <img src="/img/Youtube.svg" alt="Youtube">
+                    <p> ©2024 <span>Quomodosoft</span> All rights reserved </p>
                 </div>
                 <div class="payment">
                     <img src="/img/payment-img 1.svg" alt="Payment">
                 </div>
             </div>
- <!-- Credits End-->
-            </div>
-         </div>
-       </div>
-       
+            <!-- Credits End-->
+        </div>
+    </div>
+    </div>
+
 </body>
 
 </html>
